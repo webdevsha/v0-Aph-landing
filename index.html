@@ -3,137 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aphelia - Space-Based Solutions for Earth's Greatest Challenges</title>
+    <title>Aphelia - Space-Based Solutions for Earth</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Navigation styled like Solestial with simple links and CTA button -->
     <nav class="nav">
         <div class="nav-container">
-            <div class="logo">APHELIA</div>
-            <div class="nav-links">
-                <a href="#lunar">RADAR</a>
-                <a href="#space">ENERGY</a>
-                <a href="#earth">TECHNOLOGY</a>
-                <a href="#contact">CONTACT</a>
+            <div class="logo">aphelia</div>
+            <div class="nav-menu">
+                <div class="nav-links">
+                    <a href="#mission">Mission</a>
+                    <a href="#products">Products</a>
+                    <a href="#technology">Technology</a>
+                    <a href="#news">News</a>
+                </div>
+                <a href="#contact" class="nav-cta">CONTACT US</a>
             </div>
         </div>
     </nav>
 
-    <!-- Segment 1: The Foundation (Lunar) -->
-    <section id="lunar" class="segment lunar-segment">
-        <div class="background-image lunar-bg"></div>
-        <div class="stars-layer"></div>
-        <div class="content-container">
-            <div class="content-box fade-in">
-                <div class="segment-number">01</div>
-                <h1 class="headline">Our Proving Ground: The Moon</h1>
-                <p class="narrative">
-                    To solve Earth's greatest challenges, we started where the challenges are greatest. 
-                    The Moon is our testbed for developing resilient, high-performance systems in the 
-                    most unforgiving environment.
-                </p>
-                <div class="industry-card">
+    <!-- Hero section with full-screen video/image and large headline -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Space-Based Solutions for Earth's Greatest Challenges</h1>
+            <p class="hero-subtitle">Developing advanced radar systems and space-based solar power to secure a sustainable future for our planet</p>
+            <div class="hero-cta">
+                <a href="#mission" class="btn-primary">OUR MISSION</a>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <span>SCROLL</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Mission section with simple two-column layout -->
+    <section id="mission" class="mission-section">
+        <div class="container">
+            <div class="section-label">MISSION</div>
+            <div class="mission-grid">
+                <div class="mission-content">
+                    <h2>Building Technology Where It Matters Most</h2>
+                    <p>To solve Earth's greatest challenges, we started where the challenges are greatest. Our mission is to develop resilient, high-performance systems that bridge the gap between space exploration and terrestrial needs.</p>
+                </div>
+                <div class="mission-image">
+                    <img src="/placeholder.svg?height=600&width=800" alt="Lunar operations">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products section with card layout like Solestial -->
+    <section id="products" class="products-section">
+        <div class="container">
+            <div class="section-label">PRODUCTS</div>
+            <h2 class="section-title">Our Technology</h2>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-number">01</div>
                     <h3>Advanced Radar Systems</h3>
-                    <p>
-                        Providing persistent, high-resolution imaging for surface mapping, resource 
-                        detection, and autonomous navigation in the cis-lunar environment.
-                    </p>
+                    <p>Providing persistent, high-resolution imaging for surface mapping, resource detection, and autonomous navigation in the cis-lunar environment.</p>
+                    <a href="#radar" class="product-link">LEARN MORE →</a>
                 </div>
-            </div>
-        </div>
-        <div class="scroll-indicator">
-            <span>SCROLL TO EXPLORE</span>
-            <div class="scroll-arrow"></div>
-        </div>
-    </section>
-
-    <!-- Segment 2: The Source (Space) -->
-    <section id="space" class="segment space-segment">
-        <div class="background-image space-bg"></div>
-        <div class="sun-glow"></div>
-        <div class="earth-small"></div>
-        <div class="satellite-visual"></div>
-        <div class="content-container">
-            <div class="content-box fade-in">
-                <div class="segment-number">02</div>
-                <h1 class="headline">Harnessing the Source</h1>
-                <p class="narrative">
-                    Space offers what Earth needs: limitless, clean power. We are moving beyond 
-                    dependence on terrestrial resources to capture the most abundant energy source 
-                    in our solar system.
-                </p>
-                <div class="industry-card">
+                <div class="product-card">
+                    <div class="product-number">02</div>
                     <h3>Space-Based Solar Power</h3>
-                    <p>
-                        Our next-generation systems collect energy 24/7, without weather or atmospheric 
-                        interference, preparing to beam it directly to the communities and industries 
-                        that need it most.
-                    </p>
+                    <p>Next-generation systems that collect energy 24/7 without weather or atmospheric interference, preparing to beam clean power directly to Earth.</p>
+                    <a href="#energy" class="product-link">LEARN MORE →</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Segment 3: The Beneficiary (Earth) -->
-    <section id="earth" class="segment earth-segment">
-        <div class="background-image earth-bg"></div>
-        <div class="data-overlay"></div>
-        <div class="energy-beams"></div>
-        <div class="content-container">
-            <div class="content-box fade-in">
-                <div class="segment-number">03</div>
-                <h1 class="headline">Delivering Our Vision to Earth</h1>
-                <p class="narrative">
-                    All our technology is focused on one goal: creating a more sustainable and 
-                    secure future for our home planet.
-                </p>
-                <div class="dual-industries">
-                    <div class="industry-card">
-                        <h3>Clean Energy</h3>
-                        <p>
-                            Delivering clean, reliable, base-load power from space to the 
-                            terrestrial grid.
-                        </p>
+    <!-- Full-width image section -->
+    <section class="feature-image">
+        <img src="/placeholder.svg?height=800&width=1920" alt="Space-based solar power">
+    </section>
+
+    <!-- Technology section with dark background -->
+    <section id="technology" class="technology-section">
+        <div class="container">
+            <div class="section-label">TECHNOLOGY</div>
+            <div class="tech-grid">
+                <div class="tech-content">
+                    <h2>From Space to Earth</h2>
+                    <p>All our technology is focused on one goal: creating a more sustainable and secure future for our home planet. By harnessing resources from space, we're developing solutions that address energy security, climate monitoring, and infrastructure resilience.</p>
+                    <div class="tech-stats">
+                        <div class="stat">
+                            <div class="stat-number">24/7</div>
+                            <div class="stat-label">Clean Energy Collection</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Weather Independent</div>
+                        </div>
                     </div>
-                    <div class="industry-card">
-                        <h3>Persistent Intelligence</h3>
-                        <p>
-                            Providing all-weather intelligence for climate monitoring, 
-                            infrastructure security, and disaster response.
-                        </p>
-                    </div>
+                </div>
+                <div class="tech-image">
+                    <img src="/placeholder.svg?height=600&width=800" alt="Earth from space">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Final Call to Action -->
-    <section id="contact" class="cta-section">
-        <div class="cta-container">
-            <h2 class="cta-headline">
-                Aphelia: Space-Based Solutions for Earth's Greatest Challenges
-            </h2>
-            <div class="cta-buttons">
-                <a href="#technology" class="btn btn-primary">Learn About Our Technology</a>
-                <a href="#contact-form" class="btn btn-secondary">Contact Us</a>
+    <!-- News section styled like Solestial newsroom -->
+    <section id="news" class="news-section">
+        <div class="container">
+            <div class="section-label">NEWS</div>
+            <h2 class="section-title">Latest Updates</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-date">December 15, 2024</div>
+                    <h3>Aphelia Completes Successful Lunar Radar Test</h3>
+                    <p>Our advanced radar system demonstrated unprecedented resolution in mapping lunar surface features, marking a significant milestone in persistent intelligence capabilities.</p>
+                    <a href="#" class="news-link">READ NOW →</a>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">November 28, 2024</div>
+                    <h3>Partnership Announcement: Space-Based Solar Power Initiative</h3>
+                    <p>Aphelia partners with leading energy providers to develop the infrastructure for beaming clean energy from space to terrestrial grids.</p>
+                    <a href="#" class="news-link">READ NOW →</a>
+                </article>
+                <article class="news-card">
+                    <div class="news-date">October 10, 2024</div>
+                    <h3>Series A Funding to Accelerate Technology Development</h3>
+                    <p>Aphelia secures significant investment to scale production of radar systems and advance space-based solar power prototypes.</p>
+                    <a href="#" class="news-link">READ NOW →</a>
+                </article>
             </div>
         </div>
-        <footer class="footer">
-            <div class="footer-content">
-                <div class="footer-logo">APHELIA</div>
-                <div class="footer-links">
-                    <a href="#radar">Radar Systems</a>
-                    <a href="#energy">Energy Solutions</a>
-                    <a href="#about">About</a>
-                    <a href="#careers">Careers</a>
+    </section>
+
+    <!-- Footer styled like Solestial with simple layout -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">aphelia</div>
+                    <p>Aphelia is developing space-based solutions to address Earth's energy and security challenges through advanced radar systems and solar power technology.</p>
+                    <a href="#contact" class="btn-footer">CONTACT US</a>
                 </div>
-                <div class="footer-copyright">
-                    © 2025 Aphelia. All rights reserved.
+                <div class="footer-links-group">
+                    <div class="footer-column">
+                        <h4>MISSION</h4>
+                        <a href="#about">About</a>
+                        <a href="#vision">Vision</a>
+                        <a href="#team">Team</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>PRODUCTS</h4>
+                        <a href="#radar">Radar Systems</a>
+                        <a href="#energy">Solar Power</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>COMPANY</h4>
+                        <a href="#careers">Careers</a>
+                        <a href="#news">News</a>
+                        <a href="#contact">Contact</a>
+                    </div>
                 </div>
             </div>
-        </footer>
-    </section>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aphelia. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
